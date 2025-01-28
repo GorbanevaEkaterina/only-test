@@ -8,14 +8,14 @@ https://gorbanevaekaterina.github.io/only-test/
 
 ```
 npm install
-npm run start
+npm run dev
 ```
 
 или
 
 ```
 yarn
-yarn start
+yarn dev
 ```
 
 ## Сборка
