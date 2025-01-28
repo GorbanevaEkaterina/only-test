@@ -10,7 +10,6 @@
   flex-direction: column;
   width: 335px;
   margin: 0 auto;
-  margin-top: 60px;
 }
 
 @media (width >= 768px) {
