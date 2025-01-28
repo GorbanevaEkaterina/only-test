@@ -1,0 +1,50 @@
+@import url("./__content/popup__content.css");
+@import url("./__title/popup__title.css");
+@import url("./__form/popup__form.css");
+@import url("./__input/popup__input.css");
+@import url("./__button/popup__button.css");
+@import url("./__info/popup__info.css");
+
+.popup {
+  display: flex;
+  flex-direction: column;
+  width: 335px;
+  margin: 0 auto;
+  border-radius: 8px;
+  /* align-items: center;
+  justify-content: center; */
+  background-color: #e1e9f0;
+  padding: 8px;
+  margin-bottom: 50px;
+}
+
+@media (width >= 768px) {
+  .popup {
+    width: 236px;
+    height: 116px;
+  }
+}
+
+@media (width >= 1200px) {
+  .popup {
+    flex-direction: row;
+    width: 403px;
+    height: 150px;
+    gap: 21px;
+  }
+}
+@media (width >= 1400px) {
+  .popup {
+    width: 456px;
+    height: 154px;
+    gap: 32px;
+  }
+}
+
+@media (width >= 1900px) {
+  .popup {
+    width: 613px;
+    height: 186px;
+    gap: 51px;
+  }
+}

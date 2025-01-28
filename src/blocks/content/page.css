@@ -1,0 +1,146 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 710px;
+  min-inline-size: 375px;
+  max-inline-size: 1920px;
+  margin: 0 auto;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+picture {
+  margin: 0;
+  padding: 0;
+}
+
+button,
+a {
+  color: currentColor;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-decoration: none;
+}
+
+.stop-vertical-scroll {
+  overflow-y: hidden;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:focus-visible {
+  outline: 1px solid #5e646a;
+  box-shadow: 2px 2px 0px 0px #5e646a;
+}
+
+.wrap {
+  display: grid;
+  gap: 10px;
+}
+
+.btn-span::before {
+  content: url(../../images/icon-btn.svg);
+}
+
+@media (width >= 1200px) {
+  .btn-span::before {
+    content: "Подписаться";
+    font-family: "Loos Wide";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #1b1b1c;
+  }
+}
+.nav-span {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 28px;
+  left: 310px;
+  top: 44px;
+  gap: 6px;
+}
+.nav-span::after {
+  width: 28px;
+  height: 28px;
+  background-image: url(../../images/widget.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  cursor: pointer;
+}
+
+.nav-span::before {
+  width: 28px;
+  height: 28px;
+  background-image: url(../../images/widget1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  cursor: pointer;
+}
+
+@media (width >= 768px) {
+  .nav-span {
+    left: 700px;
+  }
+}
+@media (width >= 1200px) {
+  .nav-span {
+    width: 40px;
+    left: 1100px;
+  }
+  .nav-span::after {
+    width: 40px;
+    height: 40px;
+  }
+
+  .nav-span::before {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (width >= 1400px) {
+  .nav-span {
+    width: 40px;
+    left: 1210px;
+    top: 80px;
+  }
+}
+
+@media (width >= 1900px) {
+  .nav-span {
+    width: 40px;
+    left: 1680px;
+    top: 100px;
+  }
+}

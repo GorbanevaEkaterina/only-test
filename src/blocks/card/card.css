@@ -1,0 +1,212 @@
+@import url("./__title/card__title.css");
+@import url("./__text/card__text.css");
+@import url("./__wrapper/card__wrapper.css");
+@import url("./__logo/card__logo.css");
+
+.card {
+  position: relative;
+  width: 335px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 170px;
+  margin: 0 auto;
+  cursor: pointer;
+  background-image: url(../../images/card-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.card-about {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 335px;
+  height: 220px;
+  background-image: url(../../images/Frame1.png);
+  margin: 0 auto;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.card-answers {
+  width: 162px;
+  height: 100px;
+  background-image: url(../../images/Frame2.png);
+  margin: 0 auto;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.card-press {
+  width: 162px;
+  height: 100px;
+  background-image: url(../../images/Frame3.png);
+  margin: 0 auto;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.card-academi {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 335px;
+  height: 160px;
+  background-image: url(../../images/Frame4.png);
+  margin: 0 auto;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
+}
+.card-link {
+  display: grid;
+}
+.card-link-min {
+  width: 160px;
+}
+
+@media (width >= 768px) {
+  .card {
+    width: 236px;
+    height: 149px;
+    border-radius: 8px;
+  }
+  .card-about {
+    width: 359px;
+    height: 252px;
+  }
+
+  .card-answers {
+    width: 113px;
+    height: 120px;
+  }
+
+  .card-press {
+    width: 113px;
+    height: 120px;
+  }
+
+  .card-academi {
+    width: 236px;
+    height: 126px;
+  }
+  .card-link {
+    display: grid;
+  }
+  .card-link-min {
+    width: 113px;
+  }
+}
+
+@media (width >= 1200px) {
+  .card {
+    width: 299px;
+    height: 189px;
+  }
+  .card-about {
+    width: 612px;
+    height: 375px;
+  }
+
+  .card-answers {
+    width: 194px;
+    height: 180px;
+  }
+
+  .card-press {
+    width: 194px;
+    height: 180px;
+  }
+
+  .card-academi {
+    width: 403px;
+    height: 210px;
+  }
+  .card-link {
+    display: grid;
+  }
+  .card-link-min {
+    width: 194px;
+  }
+}
+@media (width >= 1400px) {
+  .card {
+    width: 340px;
+    height: 212px;
+  }
+  .card-about {
+    width: 693px;
+    height: 439px;
+  }
+
+  .card-answers {
+    width: 221px;
+    height: 212px;
+  }
+
+  .card-press {
+    width: 221px;
+    height: 212px;
+  }
+
+  .card-academi {
+    width: 456px;
+    height: 270px;
+  }
+  .card-link {
+    display: grid;
+  }
+  .card-link-min {
+    width: 221px;
+  }
+}
+
+@media (width >= 1900px) {
+  .card {
+    width: 455px;
+    height: 293px;
+  }
+  .card-about {
+    width: 930px;
+    height: 580px;
+  }
+
+  .card-answers {
+    width: 297px;
+    height: 280px;
+  }
+
+  .card-press {
+    width: 297px;
+    height: 280px;
+  }
+
+  .card-academi {
+    width: 613px;
+    height: 374px;
+  }
+  .card-link {
+    display: grid;
+  }
+  .card-link-min {
+    width: 297px;
+  }
+}

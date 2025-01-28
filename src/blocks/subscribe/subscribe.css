@@ -1,0 +1,32 @@
+.subscribe {
+  display: grid;
+  gap: 10px;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+@media (width >= 768px) {
+  .subscribe {
+    display: flex;
+    width: 728px;
+  }
+}
+
+@media (width >= 1200px) {
+  .subscribe {
+    gap: 15px;
+    width: 1240px;
+  }
+}
+@media (width >= 1400px) {
+  .subscribe {
+    gap: 15px;
+    width: 1400px;
+  }
+}
+
+@media (width >= 1900px) {
+  .subscribe {
+    gap: 20px;
+    width: 1880px;
+  }
+}

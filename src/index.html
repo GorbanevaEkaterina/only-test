@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Test</title>
+    <link rel="icon" href="./images/favicon.ico" sizes="any" />
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  </head>
+  <body class="page">
+    <main>
+      <section id="about" class="about">
+        <span class="nav-span"></span>
+        <h1 class="about__title">
+          КЭАЗ — надёжный партнёр в электроэнергетике
+        </h1>
+        <span class="about__text"></span>
+        <div class="about__wrapper">
+          <a class="card-link" href="#">
+            <article class="card">
+              <h3 class="card__title">Партнеры в вашем регионе</h3>
+              <p class="card__text">
+                Решения и оборудование КЭАЗ доступны для заказа через
+                федеральных дистрибьюторов и наших партнёров в регионах России
+                и странах СНГ.
+              </p>
+            </article>
+          </a>
+          <div class="about__column-content">
+            <h2 class="about__subtitle">
+              Разрабатываем и производим более 32 000 наименований продукции
+            </h2>
+            <div class="about__content">
+              <p>
+                Мы локализовали весь производственный цикл в России и активно
+                развиваем индустриальную и сырьевую независимость.
+              </p>
+              <p>
+                Мы сформировали готовые продуктовые решения практически для всех
+                индустрий — от промышленности и добычи нефти до жилищного
+                и инфраструктурного строительства.
+              </p>
+              <a class="about__link" href="#"
+                ><span class="about__link_text">О компании</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="subscribe">
+        <a class="card-link" href="#">
+          <article class="card-about">
+            <img class="card__logo" src="<%=require('./images/g14.svg')%>" />
+            <p class="card__text-about">О бренде</p>
+          </article>
+        </a>
+        <div class="card__wrapper">
+          <a class="card-link" href="#">
+            <article class="card-answers">
+              <p class="card__text-answers">Статьи</p>
+            </article>
+          </a>
+          <a class="card-link" href="#">
+            <article class="card-press">
+              <p class="card__text-press">Пресс-центр</p>
+            </article>
+          </a>
+        </div>
+        <div class="wrap">
+          <a class="card-link" href="#">
+            <article class="card-academi">
+              <p class="card__text-academi">Академия КЭАЗ</p>
+            </article>
+          </a>
+          <div id="popup" class="popup">
+            <h2 class="popup__title">Узнавайте об акциях и скидках первыми!</h2>
+            <div class="popup__content">
+              <form>
+                <fieldset class="form__set">
+                  <label class="form__field">
+                    <input
+                      pattern="`^[a-z0-9._%+\-]+@[a-z0-9.\-]+(\.[a-z]{2,}|\.xn--[a-z0-9]+)$`"
+                      data-error-message="Введите свою электронную почту"
+                      required
+                      minlength="5"
+                      maxlength="40"
+                      type="text"
+                      name="email"
+                      id="email-input"
+                      class="popup__input popup__input_type_email"
+                      placeholder="email@company.ru*"
+                    />
+                    <span class="popup__input-error email-input-error"></span>
+                  </label>
+                  <button class="popup__button" type="submit">
+                    <span class="btn-span"></span>
+                  </button>
+                  <p class="popup__info">
+                    Нажимая на кнопку, вы соглашаетесь на обработку персональных
+                    данных.
+                  </p>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

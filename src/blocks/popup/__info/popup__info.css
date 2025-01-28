@@ -1,0 +1,41 @@
+.popup__info {
+  margin-top: 6px;
+  font-family: "Loos Normal";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 100%;
+  color: #7d8489;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+  width: 319px;
+  height: 8px;
+}
+@media (width >= 768px) {
+  .popup__info {
+    width: 176px;
+  }
+}
+
+@media (width >= 1200px) {
+  .popup__info {
+    width: 194px;
+    gap: 0px;
+    margin: 0px;
+    font-size: 10px;
+  }
+}
+@media (width >= 1400px) {
+  .popup__info {
+    width: 209px;
+  }
+}
+@media (width >= 1900px) {
+  .popup__info {
+    width: 264px;
+    font-size: 12px;
+  }
+}

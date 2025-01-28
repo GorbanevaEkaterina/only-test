@@ -1,0 +1,12 @@
+.about__wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 30px;
+}
+
+@media (width >= 768px) {
+  .about__wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
